@@ -50,3 +50,15 @@ function multiplesOfThree() {
 }
 
 multiplesOfThree();
+
+// Printing Integers with While
+// Print integers from 2000 to 5280, using a WHILE.
+
+function printIntWhile(num1, num2) {
+    while (num1 <= num2) {
+        console.log(num1);
+        num1++;
+    }
+}
+
+printIntWhile(2000, 5280);
