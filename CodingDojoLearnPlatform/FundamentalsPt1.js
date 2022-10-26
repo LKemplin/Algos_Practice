@@ -62,3 +62,25 @@ function printIntWhile(num1, num2) {
 }
 
 printIntWhile(2000, 5280);
+
+// You Say It’s Your Birthday
+// If 2 given numbers represent your birth month and day in either order, log "How did you know?", else log "Just another day...." 
+
+function birthday(num1, num2) {
+    array = [num1, num2]
+    if (array.includes(1)){
+        if (array.includes(15)) {
+            console.log("How did you know?")
+        } else {
+            console.log("Just another day...");
+        }
+    } else {
+        console.log("Just another day...");
+    }
+}
+
+birthday(1, 15)
+birthday(15, 01)
+birthday(22, 6)
+birthday(12, 25)
+birthday(1, 1)
