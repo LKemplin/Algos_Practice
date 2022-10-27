@@ -54,4 +54,4 @@ function valuesGreaterThanSecond(array3) {
 
 valuesGreaterThanSecond([1, 3, 5,7,9, 13])
 valuesGreaterThanSecond([8, 2, 3, 1, 89])
-
+valuesGreaterThanSecond([1])
