@@ -55,3 +55,22 @@ function valuesGreaterThanSecond(array3) {
 valuesGreaterThanSecond([1, 3, 5,7,9, 13])
 valuesGreaterThanSecond([8, 2, 3, 1, 89])
 valuesGreaterThanSecond([1])
+
+// This Length, That Value
+// Given two numbers, return array of length num1 with each value num2. Print "Jinx!" if they are same.
+
+function lengthValue(num1, num2) {
+    lengthValueArray = [];
+    if (num1 === num2) {
+        console.log("Jinx!")
+    } else {
+        for (i=0; i<num1-1; i++) {
+            lengthValueArray.push(num2);
+        }
+        return lengthValueArray;
+    }
+}
+
+console.log(lengthValue(2, 2))
+console.log(lengthValue(2, 3))
+console.log(lengthValue(4, 5))
